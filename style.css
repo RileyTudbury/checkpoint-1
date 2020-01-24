@@ -1,10 +1,5 @@
 
 
-
-/* *{
-  outline: 1px solid black;
-} */
-
 body{
   width: 100%;
 }
@@ -20,10 +15,6 @@ body{
   position: relative;
   bottom: 0;
 }
-
-/* .card-body{
-  position: absolute;
-} */
 
 .bottom{
   flex-direction: column;
