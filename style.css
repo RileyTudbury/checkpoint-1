@@ -1,0 +1,94 @@
+/* *{
+  outline: 1px solid black;
+} */
+body{
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px){
+.small-stack{
+  text-align: center;
+}
+}
+
+.btn-lg{
+
+  position: relative;
+  bottom: 0;
+}
+
+.card-body{
+  position: absolute;
+}
+
+.bottom{
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.navbar{
+  background: none;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.rounded{
+  border-radius: 50%!important;
+}
+
+.round-nav{
+
+border-radius: 10%!important;
+
+}
+.spill{
+  bottom: 3rem;
+}
+
+.set-height{
+  min-height: 50vw;
+}
+
+
+.gradient-purp{
+  background: rgb(65,0,88);
+background: linear-gradient(270deg, rgba(65,0,88,1) 0%, rgba(78,9,121,1) 44%, rgba(255,255,255,1) 100%);
+}
+
+.vert{
+  display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.split-gradient{
+  background: rgb(65,0,88);
+background: linear-gradient(210deg, rgba(65,0,88,1) 0%, rgba(78,9,121,1) 44%, rgba(255,255,255,1) 54%);
+}
+
+.yellow{
+ background:rgb(255, 204, 0);
+}
+
+.purple{
+  background: rgb(153, 51, 255);
+}
+
+.magenta{
+  background: rgb(204, 0, 204);
+}
+.red{
+  background: red;
+}
+.text-magenta{
+
+  color: rgb(204, 0, 204);;
+}
+
+.lr-gradient{
+  background: rgb(65,0,88);
+background: linear-gradient(90deg, rgba(65,0,88,1) 0%, rgba(78,9,121,1) 46%, rgba(196,0,255,1) 100%);
+}
