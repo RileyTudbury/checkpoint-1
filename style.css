@@ -1,13 +1,17 @@
+
+
+
 /* *{
   outline: 1px solid black;
 } */
+
 body{
   width: 100%;
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (max-width: 600px){
 .small-stack{
-  text-align: center;
+  text-align: center!important;
 }
 }
 
@@ -17,9 +21,9 @@ body{
   bottom: 0;
 }
 
-.card-body{
+/* .card-body{
   position: absolute;
-}
+} */
 
 .bottom{
   flex-direction: column;
@@ -35,17 +39,35 @@ body{
   height: auto;
 }
 
+.margin-bottom{
+  margin-bottom: 3vh;
+}
+
+.relative{
+  position: relative;
+}
+
 .rounded{
   border-radius: 50%!important;
 }
 
 .round-nav{
+  
+  border-radius: 10%!important;
+  
+}
 
-border-radius: 10%!important;
+.btn-spill{
+  margin-bottom: -7vh;
+}
 
+.card-spill{
+  bottom: 3rem;
+  top: 5vh;
 }
 .spill{
   bottom: 3rem;
+  top: 0vh;
 }
 
 .set-height{
